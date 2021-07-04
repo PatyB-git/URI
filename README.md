@@ -1,5 +1,5 @@
 # URI
 
-###Resolução dos exercícios do Online Judge (URI)
-.Java
-.Python
+### Resolução dos exercícios do Online Judge (URI)
+- Java
+- Python
