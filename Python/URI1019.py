@@ -1,7 +1,10 @@
-nomeVendedor = input()
-salarioFixo = float(input())
-totalVendasDinheiro = float(input())
+tempoDuracao = int(input())
 
-comissao = totalVendasDinheiro*0.15
+horas = tempoDuracao//3600
+tempoDuracao = tempoDuracao%3600
 
-print("TOTAL = R$ {0:.2f}" .format(salarioFixo+comissao))
+minutos = tempoDuracao//60
+tempoDuracao = tempoDuracao%60
+
+print("{0}:{1}:{2}".format(horas,minutos,tempoDuracao))
+
